@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!--Configurações de Ícones - Instalação Interna
+    ------------------------------------->
+    <link rel="stylesheet" href="fontawesome/css/all.css"> <!--site: fontawesome-->
+
+  <title>Upload Image</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="pacote">
+
+      <div class="imagem">
+       <img src="" alt="">
+      </div>
+
+      <div class="content">
+        <div class="icon"><i class="fas fa-file-image"></i></div>
+        <div class="text">Nenhuma imagem ainda</div>
+      </div>
+
+      <div id="btn-cancela"><i class="fas fa-times"></i></div>
+      <div class="nome-arquivo">Nome do arquivo</div>
+
+    </div>
+
+    <input id="btn-padrao" type="file" hidden>
+    <button onclick="defaulBtnActive()" id="btn-adiciona">Adicionar imagem</button>
+
+  </div>
+
+  <script src="index.js"></script>
+  
+</body>
+</html>
